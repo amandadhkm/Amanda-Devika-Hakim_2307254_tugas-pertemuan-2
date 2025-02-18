@@ -4,6 +4,7 @@
  */
 package pkg2307254_amandadevikahakim_soalno1;
 
+import java.util.Locale;
 import java.util.Scanner;
 /**
  *
@@ -16,6 +17,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        input.useLocale(Locale.US);
         
         System.out.print("Masukan bilangan pertama: ");
         double a = input.nextDouble();
